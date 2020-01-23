@@ -351,11 +351,15 @@ details[open] > summary::after {
     text-transform: uppercase;
     padding: 20px;
     display: block;
-    border-bottom: 4px solid white;
+    border-bottom: 3px solid white;
 }
 
 .menu__link:hover {
-    border-bottom: 4px solid rgba(241, 109, 127, 1);
+    border-bottom: 3px solid rgba(241, 109, 127, 1);
+}
+
+.menu__link__active {
+    border-bottom: 3px solid rgba(241, 109, 127, 1);
 }
 
 .menu__list__active:hover .megaMenu {
@@ -902,3 +906,39 @@ details[open] > summary::after {
     background-color: rgba(241, 109, 127, 1);
 }
 
+.breadcrumb {
+    height: 148px;
+    background-color: rgba(248, 243, 244, 1);
+}
+
+.breadcrumb__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.breadcrumb__left {
+    font-size: 24px;
+    font-weight: 900;
+    color: rgba(241, 109, 127, 1);
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.breadcrumb__link {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(99, 99, 99, 1);
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.breadcrumb__link:hover {
+    color: rgba(241, 109, 127, 1);
+}
+
+.breadcrumb__link__active {
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+}
