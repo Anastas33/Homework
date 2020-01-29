@@ -13,7 +13,7 @@
 <body>
     <header class="header center">
         <div class="header__left">
-            <a href="#" class="logo"><img class="logo__img" src="img/logo.png" alt="logo">BRAN<span class="pink">D</span></a>
+            <a href="index.html" class="logo"><img class="logo__img" src="img/logo.png" alt="logo">BRAN<span class="pink">D</span></a>
             <form action="#" class="header__form">
                 <details class="header__browse">
                     <summary>Browse</summary>
@@ -38,15 +38,17 @@
                             <li class="header__dropDown__list"><a href="#" class="header__dropDown__link">Sweatshirts/Hoodies</a></li>
                             <li class="header__dropDown__list"><a href="#" class="header__dropDown__link">Blazers</a></li>
                             <li class="header__dropDown__list"><a href="#" class="header__dropDown__link">Jackets/vests</a></li>
-                        </ul class="header__dropDown__category">
+                        </ul>
                     </div>
                 </details>
-                <input class="header__search" type="text" placeholder="Search for Item...">
+                <label>
+                    <input class="header__search" type="text" placeholder="Search for Item...">
+                </label>
                 <button class="search__button"><img src="img/search.png" alt="search"></button>
             </form>
         </div>
         <div class="header__right">
-            <a href="#"><img class="header__cart" src="img/cart.png" alt="cart"></a>
+            <a href="cart.html"><img class="header__cart" src="img/cart.png" alt="cart"></a>
             <details class="button">
                 <summary>My Account</summary>
                 <div class="button__dropDown">
@@ -79,15 +81,15 @@
                         </ul>
                     </div>
                     <a href="#" class="checkout__button">Checkout</a>
-                    <a href="#" class="goToCart__button">Go to cart</a>
+                    <a href="cart.html" class="goToCart__button">Go to cart</a>
                 </div>
             </details>
         </div>
     </header>
     <nav class="nav center">
         <ul class="menu">
-            <li class="menu__list"><a href="" class="menu__link">Home </a></li>
-            <li class="menu__list"><a href="" class="menu__link menu__link__active">Man </a>
+            <li class="menu__list"><a href="index.html" class="menu__link">Home </a></li>
+            <li class="menu__list"><a href="product.html" class="menu__link menu__link__active">Man </a>
                 <div class="megaMenu">
                     <div class="menu__dropDown">
                         <div class="border__bottom">Women</div>
@@ -133,7 +135,7 @@
                     </div>
                 </div>
             </li>
-            <li class="menu__list"><a href="" class="menu__link">Women </a>
+            <li class="menu__list"><a href="#" class="menu__link">Women </a>
                 <div class="megaMenu">
                     <div class="menu__dropDown">
                         <div class="border__bottom">Women</div>
@@ -179,7 +181,7 @@
                     </div>
                 </div>
             </li>
-            <li class="menu__list"><a href="" class="menu__link">Kids </a>
+            <li class="menu__list"><a href="#" class="menu__link">Kids </a>
                 <div class="megaMenu">
                     <div class="menu__dropDown">
                         <div class="border__bottom">Women</div>
@@ -225,7 +227,7 @@
                     </div>
                 </div>
             </li>
-            <li class="menu__list"><a href="" class="menu__link">Accoseriese </a>
+            <li class="menu__list"><a href="#" class="menu__link">Accoseriese </a>
                 <div class="megaMenu megaMenu__end">
                     <div class="menu__dropDown">
                         <div class="border__bottom">Women</div>
@@ -271,7 +273,7 @@
                     </div>
                 </div>
             </li>
-            <li class="menu__list"><a href="" class="menu__link">Featured </a>
+            <li class="menu__list"><a href="#" class="menu__link">Featured </a>
                 <div class="megaMenu megaMenu__end">
                     <div class="menu__dropDown">
                         <div class="border__bottom">Women</div>
@@ -317,7 +319,7 @@
                     </div>
                 </div>
             </li>
-            <li class="menu__list"><a href="" class="menu__link">Hot Deals</a>
+            <li class="menu__list"><a href="#" class="menu__link">Hot Deals</a>
                 <div class="megaMenu megaMenu__end">
                     <div class="menu__dropDown">
                         <div class="border__bottom">Women</div>
@@ -369,7 +371,7 @@
         <div class="breadcrumb__content center">
             <div class="breadcrumb__left">New Arrivals</div>
             <div class="breadcrumb__right">
-                <a href="#" class="breadcrumb__link">Home</a> / 
+                <a href="index.html" class="breadcrumb__link">Home</a> / 
                 <a href="#" class="breadcrumb__link">Men</a> / 
                 <span class="breadcrumb__last">New Arrivals</span>
             </div>
@@ -482,7 +484,9 @@
                     <div class="topFilter__block">
                         <h4 class="topFilter__block__h4">pRICE</h4>
                         <form action="#">
-                            <input class="topFilter__range" type="range" min="$52" max="$400">
+                            <label>
+                                <input class="topFilter__range" type="range" min="$52" max="$400">
+                            </label>
                             <div class="range__block">
                                 <div class="range__price">$52</div>
                                 <div class="range__price">$400</div>
@@ -503,9 +507,9 @@
             </div>
             <div class="product__box">
                 <div class="item">
-                    <a href="#"><img src="img/product__9.png" alt="product__9" class="item__img"></a>
+                    <a href="single_page.html"><img src="img/product__9.png" alt="product__9" class="item__img"></a>
                     <div class="product__content">
-                        <a href="#" class="product__name">Mango People T-shirt</a>
+                        <a href="single_page.html" class="product__name">Mango People T-shirt</a>
                         <div class="product__price">$52.00</div>
                     </div>
                     <div class="item__hover">
@@ -694,7 +698,9 @@
                     <p class="subscribe__text__p">FOR OUR NEWLETTER AND PROMOTION</p>
                 </div>
                 <form class="subscribe__form" action="#">
-                    <input type="email" class="email" required placeholder="Enter Your Email">
+                    <label>
+                        <input type="email" class="email" required placeholder="Enter Your Email">
+                    </label>
                     <input type="submit" class="form__button" value="Subscribe">
                 </form>
             </div>
@@ -703,14 +709,14 @@
     <footer class="footer">
         <div class="footer__content center">
             <div class="footer__info">
-                <a href="#" class="logo"><img class="logo__img" src="img/logo.png" alt="logo">BRAN<span class="pink">D</span></a>
+                <a href="index.html" class="logo"><img class="logo__img" src="img/logo.png" alt="logo">BRAN<span class="pink">D</span></a>
                 <p class="footer__info__p">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
                 <p class="footer__info__p">Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
             </div> 
             <div class="footer__menu">
                 <h4 class="footer__menu__h4">COMPANY</h4>
                 <ul class="footer__menu__menu">
-                    <li class="footer__menu__list"><a href="#" class="footer__menu__link">Home</a></li>
+                    <li class="footer__menu__list"><a href="index.html" class="footer__menu__link">Home</a></li>
                     <li class="footer__menu__list"><a href="#" class="footer__menu__link">Shop</a></li>
                     <li class="footer__menu__list"><a href="#" class="footer__menu__link">About</a></li>
                     <li class="footer__menu__list"><a href="#" class="footer__menu__link">How It Works</a></li>
@@ -730,7 +736,7 @@
             <div class="footer__menu">
                 <h4 class="footer__menu__h4">SHOP CATEGORY</h4>
                 <ul class="footer__menu__menu">
-                    <li class="footer__menu__list"><a href="#" class="footer__menu__link">Men</a></li>
+                    <li class="footer__menu__list"><a href="product.html" class="footer__menu__link">Men</a></li>
                     <li class="footer__menu__list"><a href="#" class="footer__menu__link">Women</a></li>
                     <li class="footer__menu__list"><a href="#" class="footer__menu__link">Child</a></li>
                     <li class="footer__menu__list"><a href="#" class="footer__menu__link">Apparel</a></li>
