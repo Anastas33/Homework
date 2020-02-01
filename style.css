@@ -333,7 +333,9 @@ details[open] > summary::after {
 }
 
 .iconClose__button:hover {
-  background-color: #9f9f9f;
+  background-color: grey;
+  color: lightgrey;
+  cursor: pointer;
 }
 
 .total {
