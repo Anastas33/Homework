@@ -207,8 +207,16 @@ details[open] > summary::after {
   margin-right: 26px;
 }
 
+.cart-box {
+  position: relative;
+}
+
 .header__cart:hover {
   background-color: $colorHover2;
+}
+
+.cart-box:hover .button__dropDown {
+  display: block;
 }
 
 .button {
@@ -235,7 +243,8 @@ details[open] > summary::after {
   padding: 19px;
   position: absolute;
   z-index: 1;
-  right: -70px;
+  left: -25px;
+  display: none;
 }
 
 .addedProduct {
@@ -244,6 +253,7 @@ details[open] > summary::after {
   align-items: center;
   border-bottom: 1px solid rgba(237, 237, 237, 0.75);
   margin-bottom: 19px;
+  padding-bottom: 18px;
 }
 
 .addedProduct__left {
@@ -328,6 +338,7 @@ details[open] > summary::after {
   display: block;
   margin-bottom: 11px;
   margin-top: 32px;
+  text-align: center;
 }
 
 .checkout__button:hover {
@@ -344,6 +355,7 @@ details[open] > summary::after {
   line-height: 50px;
   border: 1px solid rgba(237, 237, 237, 0.75);
   display: block;
+  text-align: center;
 }
 
 .goToCart__button:hover {
